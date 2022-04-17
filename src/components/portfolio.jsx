@@ -1,12 +1,11 @@
 import React from "react";
 
-//import stock
-import stock from "../img/image1.jpg";
-import stock1 from "../img/image2.jpg";
-import stock2 from "../img/image3.jpg";
-import stock3 from "../img/image4.jpg";
-import stock4 from "../img/image5.jpg";
-import stock5 from "../img/image6.jpg";
+import poker from "../img/projects/poker.png";
+import zoo from "../img/projects/zoo.png";
+import english from "../img/projects/english.png";
+import match from "../img/projects/match.png";
+import photo from "../img/projects/photo.png";
+import piano from "../img/projects/piano.png";
 
 class Portfolio extends React.Component {
   render() {
@@ -18,8 +17,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Incididunt nostrud id aute culpa excepteur pariatur consequat
-                  elit culpa nulla enim anim incididunt.
+                  Here you can see some of my pet projects.
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -28,368 +26,229 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
-                  <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap ReactJS
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                <div className="work-img">
+                  <a href={poker} data-lightbox="gallery-vmarine">
+                    <img
+                      src={poker}
+                      alt="Poker Planning"
+                      className="img-fluid"
+                    />
+                  </a>
+                </div>
+
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">Poker Planning</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
+                          ReactJS Typescript Material-UI SASS
+                        </span>
+                        <div>
+                          <a
+                            href="https://powerful-thicket-63015.herokuapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Live version
+                          </a>
                         </div>
                       </div>
                     </div>
+                    <div className="col-sm-4">
+                      <div className="w-like">
+                        <a href={poker} data-lightbox="gallery-vmarine">
+                          <span className="ion-ios-plus-outline"></span>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </a>
-                <a
-                  href={stock1}
+                </div>
+
+                {/* <a
+                  href={zoo}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-aguadeluz">
-                  <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack SmoothScrolling
-                            VanillaJS
-                          </span>{" "}
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                <div className="work-img">
+                  <a href={zoo} data-lightbox="gallery-aguadeluz">
+                    <img src={zoo} alt="Online ZOO" className="img-fluid" />
+                  </a>
+                </div>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">Online Zoo</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">HTML5 CSS3 JavaScript</span>
+                        <div>
+                          <a
+                            href="https://rolling-scopes-school.github.io/okitel-JSFE2021Q1/online-zoo/pages/landing/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Live version
+                          </a>
                         </div>
                       </div>
                     </div>
+                    <div className="col-sm-4">
+                      <div className="w-like">
+                        <a href={zoo} data-lightbox="gallery-aguadeluz">
+                          <span className="ion-ios-plus-outline"></span>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+                </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
-                  <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack ReactJS
-                          </span>
-                          {/*} / <span className="w-date">18 Sep. 2018</span>*/}
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                <div className="work-img">
+                  <a href={match} data-lightbox="gallery-todo">
+                    <img src={match} alt="" className="img-fluid" />
+                  </a>
+                </div>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">Match game</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">HTML5 CSS3 Typescript</span>
+                        <div>
+                          <a
+                            href="https://rolling-scopes-school.github.io/okitel-JSFE2021Q1/match-match-game/dist/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Live version
+                          </a>
                         </div>
                       </div>
                     </div>
+                    <div className="col-sm-4">
+                      <div className="w-like">
+                        <a href={match} data-lightbox="gallery-todo">
+                          <span className="ion-ios-plus-outline"></span>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-todo"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-todo"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-todo"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-todo"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-todo"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+                </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-medlingos">
-                  <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            Bootstrap ReactJS GoogleAPI
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                <div className="work-img">
+                  <a href={piano} data-lightbox="gallery-smth">
+                    <img src={piano} alt="" className="img-fluid" />
+                  </a>{" "}
+                </div>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">Virtual piano</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">Javascript</span>
+                        <div>
+                          <a
+                            href="https://rolling-scopes-school.github.io/okitel-JSFE2021Q1/virtual-piano/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Live version
+                          </a>
                         </div>
                       </div>
                     </div>
+                    <div className="col-sm-4">
+                      <div className="w-like">
+                        <a href={piano} data-lightbox="gallery-smth">
+                          <span className="ion-ios-plus-outline"></span>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-medlingos"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+                </div>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-smth">
-                  <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">MERN</span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                <div className="work-img">
+                  <a href={english} data-lightbox="gallery-medlingos">
+                    {" "}
+                    <img src={english} alt="" className="img-fluid" />
+                  </a>
+                </div>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">English for kids</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">HTML5 CCS Typescript</span>
+                        <div>
+                          <a
+                            href="https://rolling-scopes-school.github.io/okitel-JSFE2021Q1/english-for-kids-base/dist/#main"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Live version
+                          </a>
                         </div>
                       </div>
                     </div>
+                    <div className="col-sm-4">
+                      <div className="w-like">
+                        <a href={english} data-lightbox="gallery-medlingos">
+                          <span className="ion-ios-plus-outline"></span>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-smth"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+                </div>
               </div>
             </div>
+
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-mf">
-                  <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
-                  </div>
-                  <div className="work-content">
-                    <div className="row">
-                      <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
-                        <div className="w-more">
-                          <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap MERN
-                          </span>
-                        </div>
-                      </div>
-                      <div className="col-sm-4">
-                        <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                <div className="work-img">
+                  <a href={photo} data-lightbox="gallery-mf">
+                    <img src={photo} alt="" className="img-fluid" />
+                  </a>
+                </div>
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">Photo filter</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">Javascript</span>
+                        <div>
+                          <a
+                            href="https://rolling-scopes-school.github.io/okitel-JSFE2021Q1/photo-filter/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Live version
+                          </a>
                         </div>
                       </div>
                     </div>
+                    <div className="col-sm-4">
+                      <div className="w-like">
+                        <a href={photo} data-lightbox="gallery-mf">
+                          <span className="ion-ios-plus-outline"></span>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock2}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-mf"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
+                </div>
               </div>
             </div>
           </div>

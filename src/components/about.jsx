@@ -15,6 +15,8 @@ import npmIcon from "../img/icons/npm.png";
 import materialUiIcon from "../img/icons/mui.png";
 import bootstrapIcon from "../img/icons/bootstrap.png";
 import vscodeIcon from "../img/icons/vscode.png";
+import sassIcon from "../img/icons/sass.png";
+import jestIcon from "../img/icons/jest.png";
 
 class About extends React.Component {
   constructor() {
@@ -91,6 +93,16 @@ class About extends React.Component {
           content: "Bootstrap",
           img: bootstrapIcon,
         },
+        {
+          id: "sass_skill",
+          content: "SASS",
+          img: sassIcon,
+        },
+        {
+          id: "jest_skill",
+          content: "jest",
+          img: jestIcon,
+        },
       ],
       about_me: [
         {
@@ -150,7 +162,7 @@ class About extends React.Component {
                               data-toggle="tooltip"
                               data-placement="top"
                               title={skill.content}
-                              className="mr-3"
+                              className="mr-3 mb-3"
                               src={skill.img}
                               alt={skill.content}
                               style={{ width: "100px" }}

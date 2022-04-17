@@ -1,42 +1,95 @@
 import React from "react";
+import $ from "jquery";
+
+import htmlIcon from "../img/icons/html5.png";
+import cssIcon from "../img/icons/css.png";
+import jsIcon from "../img/icons/js.png";
+import reactIcon from "../img/icons/react.png";
+import nodeIcon from "../img/icons/node.png";
+import postgresqlIcon from "../img/icons/postgresql.png";
+import dockerIcon from "../img/icons/docker.png";
+import tsIcon from "../img/icons/ts.png";
+import gitIcon from "../img/icons/git.png";
+import githubIcon from "../img/icons/github.png";
+import npmIcon from "../img/icons/npm.png";
+import materialUiIcon from "../img/icons/mui.png";
+import bootstrapIcon from "../img/icons/bootstrap.png";
+import vscodeIcon from "../img/icons/vscode.png";
 
 class About extends React.Component {
   constructor() {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", percentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", percentage: "75%", value: "75" },
+        {
+          id: "HTML5_skill",
+          content: "HTML5",
+          img: htmlIcon,
+        },
+        {
+          id: "CSS3_skill",
+          content: "CSS3",
+          img: cssIcon,
+        },
         {
           id: "JavaScript_skill",
           content: "JavaScript",
-          percentage: "90%",
-          value: "90",
+          img: jsIcon,
         },
-        { id: "PHP_skill", content: "PHP", percentage: "70%", value: "70" },
+        {
+          id: "Typescript_skill",
+          content: "TypeScript",
+          img: tsIcon,
+        },
         {
           id: "ReactJS_skill",
           content: "ReactJS",
-          percentage: "80%",
-          value: "80",
+          img: reactIcon,
         },
         {
-          id: "Python_skill",
-          content: "Python",
-          percentage: "75%",
-          value: "75",
+          id: "PostgreSQL_skill",
+          content: "PostgreSQL",
+          img: postgresqlIcon,
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          percentage: "85%",
-          value: "85",
+          id: "NodeJS_skill",
+          content: "NodeJS",
+          img: nodeIcon,
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          percentage: "80%",
-          value: "80",
+          id: "npm_skill",
+          content: "npm",
+          img: npmIcon,
+        },
+        {
+          id: "Docker_skill",
+          content: "Docker",
+          img: dockerIcon,
+        },
+        {
+          id: "git_skill",
+          content: "git",
+          img: gitIcon,
+        },
+        {
+          id: "github_skill",
+          content: "Github",
+          img: githubIcon,
+        },
+        {
+          id: "vscode_skill",
+          content: "Visual Studio Code",
+          img: vscodeIcon,
+        },
+        {
+          id: "materialUI_skill",
+          content: "Material-UI",
+          img: materialUiIcon,
+        },
+        {
+          id: "bootstrap_skill",
+          content: "Bootstrap",
+          img: bootstrapIcon,
         },
       ],
       about_me: [
@@ -57,6 +110,11 @@ class About extends React.Component {
         },
       ],
     };
+  }
+  componentDidMount() {
+    $(function () {
+      $("[data-toggle='tooltip']").tooltip();
+    });
   }
 
   render() {
@@ -85,24 +143,18 @@ class About extends React.Component {
                       </div>
                     </div>
                     <div className="skill-mf">
-                      {/* <p className="title-s">Skill</p> */}
                       {this.state.skills.map((skill) => {
                         return (
                           <React.Fragment key={skill.id}>
-                            <span>{skill.content}</span>{" "}
-                            <span className="pull-right">
-                              {skill.percentage}
-                            </span>
-                            <div className="progress">
-                              <div
-                                className="progress-bar"
-                                role="progressbar"
-                                style={{ width: skill.percentage }}
-                                aria-valuenow={skill.value}
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                              ></div>
-                            </div>
+                            <img
+                              data-toggle="tooltip"
+                              data-placement="top"
+                              title={skill.content}
+                              className="mr-3"
+                              src={skill.img}
+                              alt={skill.content}
+                              style={{ width: "100px" }}
+                            />
                           </React.Fragment>
                         );
                       })}

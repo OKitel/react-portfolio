@@ -2,7 +2,7 @@
   "name": "oki_portfolio",
   "version": "1.0",
   "private": true,
-  "homepage": "https://github.com/OKitel",
+  "homepage": "https://okitel.github.io/react-portfolio/",
   "dependencies": {
     "bootstrap": "^4.6.1",
     "gh-pages": "^2.2.0",

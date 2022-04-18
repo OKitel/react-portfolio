@@ -1,8 +1,12 @@
 import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
+import ReactGA from "react-ga";
 
 class Intro extends React.Component {
+  componentDidMount() {
+    ReactGA.pageview(window.location.pathname);
+  }
   render() {
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>

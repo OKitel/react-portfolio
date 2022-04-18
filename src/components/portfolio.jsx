@@ -2,8 +2,13 @@ import React from "react";
 
 import poker from "../img/projects/poker.png";
 import zoo from "../img/projects/zoo.png";
+import zooMap from "../img/projects/zoo-map.png";
+import zooPanda from "../img/projects/zoo-panda.png";
 import english from "../img/projects/english.png";
+import englishSpace from "../img/projects/english-space.png";
 import match from "../img/projects/match.png";
+import matchBack from "../img/projects/match-back.png";
+import matchDragons from "../img/projects/match-dragons.png";
 import photo from "../img/projects/photo.png";
 import piano from "../img/projects/piano.png";
 
@@ -27,7 +32,7 @@ class Portfolio extends React.Component {
             <div className="col-md-4">
               <div className="work-box">
                 <div className="work-img">
-                  <a href={poker} data-lightbox="gallery-vmarine">
+                  <a href={poker} data-lightbox="gallery-poker">
                     <img
                       src={poker}
                       alt="Poker Planning"
@@ -57,7 +62,7 @@ class Portfolio extends React.Component {
                     </div>
                     <div className="col-sm-4">
                       <div className="w-like">
-                        <a href={poker} data-lightbox="gallery-vmarine">
+                        <a href={poker} data-lightbox="gallery-poker2">
                           <span className="ion-ios-plus-outline"></span>
                         </a>
                       </div>
@@ -77,7 +82,7 @@ class Portfolio extends React.Component {
             <div className="col-md-4">
               <div className="work-box">
                 <div className="work-img">
-                  <a href={zoo} data-lightbox="gallery-aguadeluz">
+                  <a href={zoo} data-lightbox="gallery-zoo">
                     <img src={zoo} alt="Online ZOO" className="img-fluid" />
                   </a>
                 </div>
@@ -100,19 +105,47 @@ class Portfolio extends React.Component {
                     </div>
                     <div className="col-sm-4">
                       <div className="w-like">
-                        <a href={zoo} data-lightbox="gallery-aguadeluz">
+                        <a href={zoo} data-lightbox="gallery-zoo2">
                           <span className="ion-ios-plus-outline"></span>
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
+                <a
+                  href={zooMap}
+                  data-lightbox="gallery-zoo"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={zooPanda}
+                  data-lightbox="gallery-zoo"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={zooMap}
+                  data-lightbox="gallery-zoo2"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={zooPanda}
+                  data-lightbox="gallery-zoo2"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
                 <div className="work-img">
-                  <a href={match} data-lightbox="gallery-todo">
+                  <a href={match} data-lightbox="gallery-match">
                     <img src={match} alt="" className="img-fluid" />
                   </a>
                 </div>
@@ -135,19 +168,47 @@ class Portfolio extends React.Component {
                     </div>
                     <div className="col-sm-4">
                       <div className="w-like">
-                        <a href={match} data-lightbox="gallery-todo">
+                        <a href={match} data-lightbox="gallery-match2">
                           <span className="ion-ios-plus-outline"></span>
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
+                <a
+                  href={matchDragons}
+                  data-lightbox="gallery-match"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={matchBack}
+                  data-lightbox="gallery-match"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={matchDragons}
+                  data-lightbox="gallery-match2"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={matchBack}
+                  data-lightbox="gallery-match2"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
                 <div className="work-img">
-                  <a href={piano} data-lightbox="gallery-smth">
+                  <a href={piano} data-lightbox="gallery-piano">
                     <img src={piano} alt="" className="img-fluid" />
                   </a>{" "}
                 </div>
@@ -170,7 +231,7 @@ class Portfolio extends React.Component {
                     </div>
                     <div className="col-sm-4">
                       <div className="w-like">
-                        <a href={piano} data-lightbox="gallery-smth">
+                        <a href={piano} data-lightbox="gallery-piano2">
                           <span className="ion-ios-plus-outline"></span>
                         </a>
                       </div>
@@ -182,7 +243,7 @@ class Portfolio extends React.Component {
             <div className="col-md-4">
               <div className="work-box">
                 <div className="work-img">
-                  <a href={english} data-lightbox="gallery-medlingos">
+                  <a href={english} data-lightbox="gallery-english">
                     {" "}
                     <img src={english} alt="" className="img-fluid" />
                   </a>
@@ -206,20 +267,35 @@ class Portfolio extends React.Component {
                     </div>
                     <div className="col-sm-4">
                       <div className="w-like">
-                        <a href={english} data-lightbox="gallery-medlingos">
+                        <a href={english} data-lightbox="gallery-english2">
                           <span className="ion-ios-plus-outline"></span>
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
+                <a
+                  href={englishSpace}
+                  data-lightbox="gallery-english"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+
+                <a
+                  href={englishSpace}
+                  data-lightbox="gallery-english2"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
               </div>
             </div>
 
             <div className="col-md-4">
               <div className="work-box">
                 <div className="work-img">
-                  <a href={photo} data-lightbox="gallery-mf">
+                  <a href={photo} data-lightbox="gallery-photo">
                     <img src={photo} alt="" className="img-fluid" />
                   </a>
                 </div>
@@ -242,7 +318,7 @@ class Portfolio extends React.Component {
                     </div>
                     <div className="col-sm-4">
                       <div className="w-like">
-                        <a href={photo} data-lightbox="gallery-mf">
+                        <a href={photo} data-lightbox="gallery-photo2">
                           <span className="ion-ios-plus-outline"></span>
                         </a>
                       </div>

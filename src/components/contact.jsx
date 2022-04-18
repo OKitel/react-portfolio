@@ -1,7 +1,13 @@
 import React from "react";
-import imageOverlay from "../img/earth.jpg";
+import imageOverlay from "../img/galaxy.jpg";
+import $ from "jquery";
 
 class Contact extends React.Component {
+  componentDidMount() {
+    $(function () {
+      $("[data-toggle='tooltip']").tooltip();
+    });
+  }
   render() {
     return (
       <section
@@ -21,7 +27,7 @@ class Contact extends React.Component {
                       </div>
                       <div>
                         <form
-                          action="https://formspree.io/xdoeonlo"
+                          action="https://formspree.io/f/xlezpzdy"
                           method="POST"
                           className="contactForm"
                         >
@@ -109,44 +115,54 @@ class Contact extends React.Component {
                           <br />
                           Simply fill the from and send me an email.
                         </p>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
                       </div>
                       <div className="socials">
                         <ul>
                           <li>
                             <a
-                              href=""
+                              href="https://www.codewars.com/users/OKitel"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
+                                <i
+                                  data-toggle="tooltip"
+                                  data-placement="top"
+                                  title="Codewars"
+                                  className="ion-social-javascript"
+                                ></i>
                               </span>
                             </a>
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/OKitel"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-github"></i>
+                                <i
+                                  data-toggle="tooltip"
+                                  data-placement="top"
+                                  title="Github"
+                                  className="ion-social-github"
+                                ></i>
                               </span>
                             </a>
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/olga-kitel-623558224/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-linkedin"></i>
+                                <i
+                                  data-toggle="tooltip"
+                                  data-placement="top"
+                                  title="LinkedIn"
+                                  className="ion-social-linkedin"
+                                ></i>
                               </span>
                             </a>
                           </li>
@@ -163,8 +179,7 @@ class Contact extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <div className="copyright-box">
-                </div>
+                <div className="copyright-box"></div>
               </div>
             </div>
           </div>

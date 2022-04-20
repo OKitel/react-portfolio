@@ -46,6 +46,7 @@ class Contact extends React.Component {
                                   placeholder="Your Name"
                                   data-rule="minlen:4"
                                   data-msg="Please enter at least 4 chars"
+                                  required
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -60,6 +61,7 @@ class Contact extends React.Component {
                                   placeholder="Your Email"
                                   data-rule="email"
                                   data-msg="Please enter a valid email"
+                                  required
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -87,6 +89,7 @@ class Contact extends React.Component {
                                   data-rule="required"
                                   data-msg="Please write something for us"
                                   placeholder="Message"
+                                  required
                                 ></textarea>
                                 <div className="validation"></div>
                               </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 //import css in order
 import "normalize.css";
@@ -29,7 +29,7 @@ import Contact from "./components/contact.jsx";
 import BackToTop from "./components/back-top.jsx";
 import Preloader from "./components/preloader";
 
-ReactGA.initialize("G - E00Y6GB77F");
+ReactGA.initialize("G-E00Y6GB77F");
 
 ReactDOM.render(
   <React.Fragment>

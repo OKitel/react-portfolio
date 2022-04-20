@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fef9cb8d4b59d44bdf772dcdcf890fdb",
+    "revision": "0aa02a63156c1de8e532add9132b4b7e",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "d80b0dd748aa6a2e40d1",
+    "revision": "8629505dc7c5bb16ebe2",
     "url": "/react-portfolio/static/css/2.b97dddfb.chunk.css"
   },
   {
-    "revision": "a7a6f457c3df7dac115c",
+    "revision": "211a376173f7080a6a8d",
     "url": "/react-portfolio/static/css/main.97f50eb1.chunk.css"
   },
   {
-    "revision": "d80b0dd748aa6a2e40d1",
-    "url": "/react-portfolio/static/js/2.f46cf313.chunk.js"
+    "revision": "8629505dc7c5bb16ebe2",
+    "url": "/react-portfolio/static/js/2.86b281c5.chunk.js"
   },
   {
     "revision": "332bf1b0d236b7fc5455596e6356764c",
-    "url": "/react-portfolio/static/js/2.f46cf313.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.86b281c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a7a6f457c3df7dac115c",
-    "url": "/react-portfolio/static/js/main.17d2fdfb.chunk.js"
+    "revision": "211a376173f7080a6a8d",
+    "url": "/react-portfolio/static/js/main.e06fe618.chunk.js"
   },
   {
     "revision": "01e2cf204473cf606da5",
@@ -130,6 +130,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b88f2a58dac5326159a3198703336b68",
     "url": "/react-portfolio/static/media/piano.b88f2a58.png"
+  },
+  {
+    "revision": "81676814b926087895f7982ccd6fa3dc",
+    "url": "/react-portfolio/static/media/poker-game.81676814.png"
+  },
+  {
+    "revision": "69a9049901e522264b3bd6071338fe25",
+    "url": "/react-portfolio/static/media/poker-lobby.69a90499.png"
+  },
+  {
+    "revision": "d992bae7f88802e23837a0792f8fa857",
+    "url": "/react-portfolio/static/media/poker-lobby2.d992bae7.png"
   },
   {
     "revision": "49c1a2244a87ad4ab71ac3af1c7e919a",

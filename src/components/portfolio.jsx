@@ -1,6 +1,9 @@
 import React from "react";
 
 import poker from "../img/projects/poker.png";
+import pokerLobby from "../img/projects/poker-lobby.png";
+import pokerLobbyCovers from "../img/projects/poker-lobby2.png";
+import pokerGame from "../img/projects/poker-game.png";
 import zoo from "../img/projects/zoo.png";
 import zooMap from "../img/projects/zoo-map.png";
 import zooPanda from "../img/projects/zoo-panda.png";
@@ -51,7 +54,7 @@ class Portfolio extends React.Component {
                         </span>
                         <div>
                           <a
-                            href="https://powerful-thicket-63015.herokuapp.com/"
+                            href="https://jovial-maamoul-0dab99.netlify.app"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -70,13 +73,50 @@ class Portfolio extends React.Component {
                   </div>
                 </div>
 
-                {/* <a
-                  href={zoo}
-                  data-lightbox="gallery-vmarine"
+                <a
+                  href={pokerLobby}
+                  data-lightbox="gallery-poker"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                </a> */}
+                </a>
+                <a
+                  href={pokerLobbyCovers}
+                  data-lightbox="gallery-poker"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={pokerGame}
+                  data-lightbox="gallery-poker"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+
+                <a
+                  href={pokerLobby}
+                  data-lightbox="gallery-poker2"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={pokerLobbyCovers}
+                  data-lightbox="gallery-poker2"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+
+                <a
+                  href={pokerGame}
+                  data-lightbox="gallery-poker2"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
               </div>
             </div>
             <div className="col-md-4">
@@ -154,7 +194,9 @@ class Portfolio extends React.Component {
                     <div className="col-sm-8">
                       <h2 className="w-title">Match game</h2>
                       <div className="w-more">
-                        <span className="w-ctegory">HTML5 CSS3 Typescript</span>
+                        <span className="w-ctegory">
+                          HTML5 CSS3 Typescript Bootstrap
+                        </span>
                         <div>
                           <a
                             href="https://rolling-scopes-school.github.io/okitel-JSFE2021Q1/match-match-game/dist/"

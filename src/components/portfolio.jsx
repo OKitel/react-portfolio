@@ -52,13 +52,22 @@ class Portfolio extends React.Component {
                         <span className="w-ctegory">
                           ReactJS Typescript Material-UI SASS
                         </span>
-                        <div>
+                        <div className="d-flex justify-content-between">
                           <a
                             href="https://jovial-maamoul-0dab99.netlify.app"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
+                            <i className="ion-earth mr-1"></i>
                             Live version
+                          </a>
+                          <a
+                            href="https://github.com/OKitel/Pointing-Poker"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i className="ion-social-github mr-1"></i>
+                            Source code
                           </a>
                         </div>
                       </div>
@@ -138,6 +147,7 @@ class Portfolio extends React.Component {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
+                            <i className="ion-earth mr-1"></i>
                             Live version
                           </a>
                         </div>
@@ -203,6 +213,7 @@ class Portfolio extends React.Component {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
+                            <i className="ion-earth mr-1"></i>
                             Live version
                           </a>
                         </div>
@@ -266,6 +277,7 @@ class Portfolio extends React.Component {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
+                            <i className="ion-earth mr-1"></i>
                             Live version
                           </a>
                         </div>
@@ -302,6 +314,7 @@ class Portfolio extends React.Component {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
+                            <i className="ion-earth mr-1"></i>
                             Live version
                           </a>
                         </div>
@@ -353,6 +366,7 @@ class Portfolio extends React.Component {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
+                            <i className="ion-earth mr-1"></i>
                             Live version
                           </a>
                         </div>
